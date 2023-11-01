@@ -12,15 +12,15 @@
 
        <TextField fx:id="txtlabel" layoutX="91.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
        <TextField fx:id="txtcategory" layoutX="171.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtsubcategory" layoutX="244.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtcountry" layoutX="324.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtstrength" layoutX="404.0" layoutY="54.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtsugar" layoutX="484.0" layoutY="54.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtvolume" layoutX="564.0" layoutY="54.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtaging" layoutX="644.0" layoutY="54.0" prefHeight="26.0" prefWidth="80.0" />
-       <TextField fx:id="txtyear" layoutX="724.0" layoutY="54.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtsubcategory" layoutX="251.0" layoutY="56.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtcountry" layoutX="331.0" layoutY="56.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtstrength" layoutX="411.0" layoutY="56.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtsugar" layoutX="491.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtvolume" layoutX="571.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtaging" layoutX="651.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
+       <TextField fx:id="txtyear" layoutX="731.0" layoutY="55.0" prefHeight="26.0" prefWidth="80.0" />
 
-       <Button layoutX="11.0" layoutY="55.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="Добавить" />
+       <Button layoutX="11.0" layoutY="55.0" mnemonicParsing="false" onAction="#saveToDB" prefHeight="26.0" prefWidth="80.0" text="Добавить" />
        <TableView fx:id="table" layoutX="11.0" layoutY="88.0" prefHeight="419.0" prefWidth="802.0">
            <columns>
                <TableColumn prefWidth="75.0" text="C1" />
