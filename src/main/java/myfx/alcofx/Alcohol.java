@@ -23,8 +23,8 @@ public class Alcohol {
         this.year = new SimpleIntegerProperty(year);
     }
     void testConnection(){
-        //String url = "jdbc:postgresql://10.10.104.136:5432/Geometry?user=postgres&password=123";
-        String url = "jdbc:postgresql://localhost:5432/alko_konst?user=postgres&password=";
+        String url = "jdbc:postgresql://10.10.104.136:5432/Geometry?user=postgres&password=123";
+        //String url = "jdbc:postgresql://localhost:5432/alko_konst?user=postgres&password=";
         try {
             Connection conn = DriverManager.getConnection(url);
             System.out.println("Подключено");
@@ -34,8 +34,8 @@ public class Alcohol {
         }
     }
     static Connection getConnection() throws SQLException {
-        //String url = "jdbc:postgresql://10.10.104.136:5432/alko_konst?user=postgres&password=123";
-        String url = "jdbc:postgresql://localhost:5432/alko_konst?user=postgres&password=";
+        String url = "jdbc:postgresql://10.10.104.136:5432/alko_konst?user=postgres&password=123";
+        //String url = "jdbc:postgresql://localhost:5432/alko_konst?user=postgres&password=";
         Connection conn = DriverManager.getConnection(url);
         return conn;
     }

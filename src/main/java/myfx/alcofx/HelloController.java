@@ -125,7 +125,7 @@ public class HelloController {
             Integer year = Integer.parseInt(txtyear.getText());
 
             Alcohol a = new Alcohol(id,label,category,subcategory,country,strength,sugar,volume,aging,year);
-            saveAlco(a);
+            saveAlco(a);reloadFromBD();
 
         } catch (Exception e) {
             System.out.println("ошибка записи " + e.getMessage());
